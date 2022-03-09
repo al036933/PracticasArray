@@ -16,7 +16,7 @@ public class Main {
         }
 
         System.out.print("Array1: ");
-        for (int i = 4; i < array2.length; i++) {
+        for (int i = 0; true; i++) {
             array2[i--] = array1[i];
         }
     }
